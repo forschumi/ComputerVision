@@ -30,8 +30,8 @@ class Solver(object):
   data = {
     'X_train': # training data
     'y_train': # training labels
-    'X_val': # validation data
-    'X_train': # validation labels
+    'X_val':   # validation data
+    'y_val':   # validation labels
   }
   model = MyAwesomeModel(hidden_size=100, reg=10)
   solver = Solver(model, data,
